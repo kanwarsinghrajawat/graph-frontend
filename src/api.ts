@@ -1,7 +1,8 @@
 import axios from "axios";
 import { Character } from "./types/Character";
 
-const API_BASE_URL = "http://34.138.200.26:8080";
+// const API_BASE_URL = "http://34.138.200.26:8080";
+const API_BASE_URL = "http://34.138.200.26";
 
 export const fetchCharacterByName = async (
   name: string
